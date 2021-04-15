@@ -30,7 +30,7 @@ class House
 	end
 
 	def recite()
-
+		1.upto(12).collect { |i| line(i) }.join("\n")
 	end
 
 end
