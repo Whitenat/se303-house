@@ -12,14 +12,8 @@ class House
 			return "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 		when 5
 			return "This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
-		when 6
-			return "This is the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
-		when 7 
-			return "This is the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
-		when 8
-			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 		else
-			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 		end
 	end
 
@@ -39,6 +33,10 @@ class House
 			"the priest all shaven and shorn that married "
 		when 8
 			"the man all tattered and torn that kissed "
+		when 7
+			"the maiden all forlorn that milked "
+		when 6
+			"the cow with the crumpled horn that tossed "
 		else
 			""
 		end
