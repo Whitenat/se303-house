@@ -28,7 +28,7 @@ class House
 		when 10
 			pieces[number -1]
 		when 9
-			"the priest all shaven and shorn that married "
+			pieces[number -1]
 		when 8
 			"the man all tattered and torn that kissed "
 		when 7
