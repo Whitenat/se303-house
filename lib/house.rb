@@ -8,10 +8,8 @@ class House
 			return "This is the malt that lay in the house that Jack built.\n"
 		when 3
 			return "This is the rat that ate the malt that lay in the house that Jack built.\n"
-		when 4
-			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 		else
-			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}#{phrase(verse-8)}the rat that ate the malt that lay in the house that Jack built.\n"
 		end
 	end
 
@@ -37,6 +35,8 @@ class House
 			"the cow with the crumpled horn that tossed "
 		when 5
 			"the dog that worried "
+		when 4
+			"the cat that killed "
 		else
 			""
 		end
