@@ -34,7 +34,12 @@ class House
 	end
 
 	def phrase(number)
-		"the horse and the hound and the horn that belonged to "
+		case number
+		when 12
+			"the horse and the hound and the horn that belonged to "
+		else
+			""
+		end
 	end
 
 end
