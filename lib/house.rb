@@ -23,29 +23,8 @@ class House
 		"the rooster that crowed in the morn that woke ",
 		"the farmer sowing his corn that kept ",
 		"the horse and the hound and the horn that belonged to "
-	]
-		case number
-		when 10
-			pieces[number -1]
-		when 9
-			pieces[number -1]
-		when 8
-			pieces[number -1]
-		when 7
-			pieces[number -1]
-		when 6
-			pieces[number -1]
-		when 5
-			pieces[number -1]
-		when 4
-			pieces[number -1]
-		when 3
-			pieces[number -1]
-		when 2
-			pieces[number -1]
-		else
-			pieces[number -1]
-		end
+		]
+		pieces[number -1]
 	end
 
 end
