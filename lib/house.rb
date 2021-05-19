@@ -1,7 +1,7 @@
 class House
 
 	def line(verse)
-		"This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}#{phrase(verse-8)}#{phrase(verse-9)}#{phrase(verse-10)}the house that Jack built.\n"
+		"This is #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 	end
 
 	def recite()
