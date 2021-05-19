@@ -25,10 +25,6 @@ class House
 		"the horse and the hound and the horn that belonged to "
 	]
 		case number
-		when 12
-			pieces[number -1]
-		when 11
-			pieces[number -1]
 		when 10
 			"the rooster that crowed in the morn that woke "
 		when 9
@@ -48,7 +44,7 @@ class House
 		when 2
 			"the malt that lay in "
 		else
-			""
+			pieces[number -1]
 		end
 	end
 
