@@ -9,6 +9,7 @@ class House
 	end
 
 	def phrase(number)
+		return "" if number < 0
 		case number
 		when 12
 			"the horse and the hound and the horn that belonged to "
