@@ -36,7 +36,7 @@ class House
 		when 6
 			pieces[number -1]
 		when 5
-			"the dog that worried "
+			pieces[number -1]
 		when 4
 			"the cat that killed "
 		when 3
