@@ -32,7 +32,7 @@ class House
 		when 8
 			pieces[number -1]
 		when 7
-			"the maiden all forlorn that milked "
+			pieces[number -1]
 		when 6
 			"the cow with the crumpled horn that tossed "
 		when 5
