@@ -1,12 +1,7 @@
 class House
 
 	def line(verse)
-		case verse
-		when 1
-			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}#{phrase(verse-8)}#{phrase(verse-9)}#{phrase(verse-10)}the house that Jack built.\n"
-		else
-			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}#{phrase(verse-8)}#{phrase(verse-9)}#{phrase(verse-10)}the house that Jack built.\n"
-		end
+		"This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}#{phrase(verse-8)}#{phrase(verse-9)}#{phrase(verse-10)}the house that Jack built.\n"
 	end
 
 	def recite()
