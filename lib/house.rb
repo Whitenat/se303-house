@@ -38,7 +38,7 @@ class House
 		when 5
 			pieces[number -1]
 		when 4
-			"the cat that killed "
+			pieces[number -1]
 		when 3
 			"the rat that ate "
 		when 2
