@@ -34,7 +34,7 @@ class House
 		when 7
 			pieces[number -1]
 		when 6
-			"the cow with the crumpled horn that tossed "
+			pieces[number -1]
 		when 5
 			"the dog that worried "
 		when 4
