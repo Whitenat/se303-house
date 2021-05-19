@@ -40,7 +40,7 @@ class House
 		when 4
 			pieces[number -1]
 		when 3
-			"the rat that ate "
+			pieces[number -1]
 		when 2
 			"the malt that lay in "
 		else
