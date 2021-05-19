@@ -25,7 +25,7 @@ class House
 	]
 		case number
 		when 12
-			"the horse and the hound and the horn that belonged to "
+			pieces[number -2]
 		when 11
 			"the farmer sowing his corn that kept "
 		when 10
