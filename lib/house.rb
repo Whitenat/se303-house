@@ -10,7 +10,8 @@ class House
 
 	def phrase(number)
 		return ""if number < 0
-		pieces = [			
+		pieces = [	
+		"",	
 		"the malt that lay in ",
 		"the rat that ate ",
 		"the cat that killed ",
@@ -25,9 +26,9 @@ class House
 	]
 		case number
 		when 12
-			pieces[number -2]
+			pieces[number -1]
 		when 11
-			pieces[number -2]
+			pieces[number -1]
 		when 10
 			"the rooster that crowed in the morn that woke "
 		when 9
