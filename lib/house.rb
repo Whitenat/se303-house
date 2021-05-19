@@ -5,7 +5,7 @@ class House
 		when 1
 			return "This is the house that Jack built.\n"
 		when 2
-			return "This is the malt that lay in the house that Jack built.\n"
+			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}#{phrase(verse-8)}#{phrase(verse-9)}the malt that lay in the house that Jack built.\n"
 		when 3
 			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}#{phrase(verse-7)}#{phrase(verse-8)}#{phrase(verse-9)}the malt that lay in the house that Jack built.\n"
 		else
