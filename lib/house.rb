@@ -11,7 +11,7 @@ class House
 		when 4
 			return "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 		when 5
-			return "This is the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 		else
 			return "This is #{phrase(verse)}#{phrase(verse-1)}#{phrase(verse-2)}#{phrase(verse-3)}#{phrase(verse-4)}#{phrase(verse-5)}#{phrase(verse-6)}the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
 		end
