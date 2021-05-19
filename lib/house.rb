@@ -42,7 +42,7 @@ class House
 		when 3
 			pieces[number -1]
 		when 2
-			"the malt that lay in "
+			pieces[number -1]
 		else
 			pieces[number -1]
 		end
