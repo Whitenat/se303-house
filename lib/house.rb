@@ -30,7 +30,7 @@ class House
 		when 9
 			pieces[number -1]
 		when 8
-			"the man all tattered and torn that kissed "
+			pieces[number -1]
 		when 7
 			"the maiden all forlorn that milked "
 		when 6
