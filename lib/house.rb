@@ -27,7 +27,7 @@ class House
 		when 12
 			pieces[number -2]
 		when 11
-			"the farmer sowing his corn that kept "
+			pieces[number -2]
 		when 10
 			"the rooster that crowed in the morn that woke "
 		when 9
