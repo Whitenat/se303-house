@@ -26,7 +26,7 @@ class House
 	]
 		case number
 		when 10
-			"the rooster that crowed in the morn that woke "
+			pieces[number -1]
 		when 9
 			"the priest all shaven and shorn that married "
 		when 8
