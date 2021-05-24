@@ -9,8 +9,8 @@ class House
 		end
 	end
 
-	def recite()
-		1.upto(12).collect { |i| line(i) }.join("\n")
+	def recite(version = "original")
+		1.upto(12).collect { |i| line(i, version) }.join("\n")
 	end
 
 	def phrase(number)
