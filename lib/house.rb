@@ -4,8 +4,13 @@ class House
 		"This is #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 	end
 
-	def recite()
-		1.upto(12).collect { |i| line(i) }.join("\n")
+	def recite(version = "original")
+		case version
+		when "original"
+			1.upto(12).collect { |i| line(i) }.join("\n")
+		else
+			"Invalid Version"
+		end
 	end
 
 	def phrase(number)
