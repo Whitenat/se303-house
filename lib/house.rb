@@ -4,6 +4,10 @@ class House
 		"This is #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 	end
 
+	def pirate_line(verse)
+		"Thar be #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
+	end
+
 	def recite(version = "original")
 		case version
 		when "original"
