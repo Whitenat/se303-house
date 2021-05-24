@@ -1,6 +1,6 @@
 class House
 
-	def line(verse)
+	def line(verse, version = "original")
 		"This is #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 	end
 
