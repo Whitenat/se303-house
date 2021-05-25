@@ -4,7 +4,7 @@ class House
 		case version
 		when "original"
 			"This is #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
-		when "pirate"
+		else
 			"Thar be #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 		end
 	end
