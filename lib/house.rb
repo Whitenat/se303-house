@@ -3,7 +3,7 @@ class House
 	def line(verse, version = "original")
 		case version
 		when "original"
-			"This is #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
+			"#{intro(version)}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 		else
 			"Thar be #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 		end
