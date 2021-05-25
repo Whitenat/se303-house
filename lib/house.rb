@@ -5,7 +5,7 @@ class House
 		when "original"
 			"#{intro(version)}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 		else
-			"Thar be #{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
+			"#{intro(version)}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 		end
 	end
 
@@ -14,7 +14,12 @@ class House
 	end
 
 	def intro(version)
-		"This is "
+		case version
+		when "original"
+			"This is "
+		else
+			"Thar be "
+		end
 	end
 
 	def phrase(number)
