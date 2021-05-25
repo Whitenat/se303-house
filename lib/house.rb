@@ -1,7 +1,10 @@
 class House
 
-	def line(verse, version = "original")
-		"#{intro(version)}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
+	def line(verse, version = "original", order = "original")
+		case order
+		when "original"
+			"#{intro(version)}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
+		end
 	end
 
 	def recite(version = "original")
