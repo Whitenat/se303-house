@@ -42,11 +42,4 @@ class RandomHouse < House
 	def initialize
 		@@pieces.shuffle
 	end
-	def phrase(number)
-		return ""if number < 2
-		@@pieces[number -2]
-	end
-
-
-
 end
