@@ -40,7 +40,7 @@ class House
 		"the farmer sowing his corn that kept ",
 		"the horse and the hound and the horn that belonged to "
 		]
-		pieces[number -2]
+		@@pieces[number -2]
 	end
 
 end
