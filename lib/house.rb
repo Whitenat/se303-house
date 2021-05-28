@@ -12,6 +12,9 @@ class House
 		"the farmer sowing his corn that kept ",
 		"the horse and the hound and the horn that belonged to "
 	]
+	def initialize
+		@@pieces.unshift("")
+	end
 
 	def line(verse)
 		"#{intro()}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
