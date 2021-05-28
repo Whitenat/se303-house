@@ -53,11 +53,10 @@ class RandomHouse < House
 			"the farmer sowing his corn that kept ",
 			"the horse and the hound and the horn that belonged to "
 			].shuffle
-		@pieces.unshift("")
 	end
 	def phrase(number)
-		return ""if number < 1
-		@pieces[number -1]
+		return ""if number < 2
+		@pieces[number -2]
 	end
 
 
