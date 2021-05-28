@@ -40,3 +40,9 @@ class House
 	end
 
 end
+
+class PirateHouse
+	def intro
+		"Thar be "
+	end
+end
