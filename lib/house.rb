@@ -1,23 +1,15 @@
 class House
 
-	def line(verse, version = "original", order = "original")
-		case order
-		when "original"
-			"#{intro(version)}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
-		end
+	def line(verse)
+		"#{intro()}#{verse.downto(1).collect { |i| phrase(i) }.join("")}the house that Jack built.\n"
 	end
 
-	def recite(version = "original")
-		1.upto(12).collect { |i| line(i, version) }.join("\n")
+	def recite()
+		1.upto(12).collect { |i| line(i) }.join("\n")
 	end
 
-	def intro(version)
-		case version
-		when "original"
-			"This is "
-		else
-			"Thar be "
-		end
+	def intro
+		"This is "
 	end
 
 	def phrase(number)
@@ -41,7 +33,7 @@ class House
 
 end
 
-class PirateHouse
+class PirateHouse < House
 	def intro
 		"Thar be "
 	end
