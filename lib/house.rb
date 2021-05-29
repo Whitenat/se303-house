@@ -16,6 +16,21 @@ class House
 	end
 	def pieces 
 		[	
+			"that lay in ",
+			"that ate ",
+			"that killed ",
+			"that worried ",
+			"that tossed ",
+			"that milked ",
+			"that kissed ",
+			"that married ",
+			"that woke ",
+			"that kept ",
+			"that belonged to "
+			]
+	end
+	def pieces 
+		[	
 			"the malt that lay in ",
 			"the rat that ate ",
 			"the cat that killed ",
