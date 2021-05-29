@@ -1,4 +1,19 @@
 class House
+	def noun 
+		[	
+			"the malt ",
+			"the rat ",
+			"the cat ",
+			"the dog ",
+			"the cow with the crumpled horn ",
+			"the maiden all forlorn ",
+			"the man all tattered and torn ",
+			"the priest all shaven and shorn ",
+			"the rooster that crowed in the morn ",
+			"the farmer sowing his corn ",
+			"the horse and the hound and the horn "
+			]
+	end
 	def pieces 
 		[	
 			"the malt that lay in ",
