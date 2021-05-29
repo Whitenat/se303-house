@@ -14,7 +14,7 @@ class House
 			"the horse and the hound and the horn "
 			]
 	end
-	def pieces 
+	def verb
 		[	
 			"that lay in ",
 			"that ate ",
