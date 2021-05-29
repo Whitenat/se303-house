@@ -30,19 +30,7 @@ class House
 			]
 	end
 	def pieces
-		[	
-			"#{noun[0]}#{verb[0]}",
-			"#{noun[1]}#{verb[1]}",
-			"#{noun[2]}#{verb[2]}",
-			"#{noun[3]}#{verb[3]}",
-			"#{noun[4]}#{verb[4]}",
-			"#{noun[5]}#{verb[5]}",
-			"#{noun[6]}#{verb[6]}",
-			"#{noun[7]}#{verb[7]}",
-			"#{noun[8]}#{verb[8]}",
-			"#{noun[9]}#{verb[9]}",
-			"#{noun[10]}#{verb[10]}"
-			]
+		(0..10).map { |i| "#{noun[i]}#{verb[i]}"}
 	end
 
 	def line(verse)

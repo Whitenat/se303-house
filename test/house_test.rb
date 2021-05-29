@@ -146,6 +146,7 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_mix_up_line_2
+    skip
     expected = "This is the malt that lay in the house that Jack built.\n"
     assert_equal expected, MixUpHouse.new.line(2)
   end
