@@ -1,6 +1,6 @@
 class House
-	def initialize
-		@pieces = [	
+	def pieces 
+		[	
 			"the malt that lay in ",
 			"the rat that ate ",
 			"the cat that killed ",
@@ -29,7 +29,7 @@ class House
 
 	def phrase(number)
 		return ""if number < 2
-		@pieces[number -2]
+		pieces[number -2]
 	end
 
 end
