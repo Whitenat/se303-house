@@ -31,17 +31,17 @@ class House
 	end
 	def pieces 
 		[	
-			"#{noun[0]}that lay in ",
-			"#{noun[1]}that ate ",
-			"#{noun[2]}that killed ",
-			"#{noun[3]}that worried ",
-			"#{noun[4]}that tossed ",
-			"#{noun[5]}that milked ",
-			"#{noun[6]}that kissed ",
-			"#{noun[7]}that married ",
-			"#{noun[8]}that woke ",
-			"#{noun[9]}that kept ",
-			"#{noun[10]}that belonged to "
+			"#{noun[0]}#{verb[0]}",
+			"#{noun[1]}#{verb[1]}",
+			"#{noun[2]}#{verb[2]}",
+			"#{noun[3]}#{verb[3]}",
+			"#{noun[4]}#{verb[4]}",
+			"#{noun[5]}#{verb[5]}",
+			"#{noun[6]}#{verb[6]}",
+			"#{noun[7]}#{verb[7]}",
+			"#{noun[8]}#{verb[8]}",
+			"#{noun[9]}#{verb[9]}",
+			"#{noun[10]}#{verb[10]}"
 			]
 	end
 
