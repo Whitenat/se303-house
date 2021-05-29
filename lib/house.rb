@@ -29,7 +29,7 @@ class House
 			"that belonged to "
 			]
 	end
-	def pieces 
+	def pieces
 		[	
 			"#{noun[0]}#{verb[0]}",
 			"#{noun[1]}#{verb[1]}",
@@ -83,5 +83,17 @@ class RandomPirateHouse < House
 
 	def intro
 		"Thar be "
+	end
+end
+
+class MixUpHouse < House
+	def verb
+		super.shuffle
+	end
+	def noun
+		super.shuffle
+	end
+	def pieces
+		super.shuffle
 	end
 end
